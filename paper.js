@@ -9,9 +9,9 @@ just fix the existing ones.
 
 // Written by Kent, Clark
 
-var Enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var enemies = [ " Lex " , " Batman " ,"Darkseid","Brainiac","General Zod","Doomsday"];
 
-funtion Who_Wins(is-there-kryptonite,enemy_name)
+function who_Wins(is_there_kryptonite_enemy_name)
 {
 if (!is-there-kryptonite)
 {
@@ -23,16 +23,19 @@ else{
 }
     }
 
-for (var i=0;i<enemies.length;i++)
+for (var i = 0 ; i < enemies.length ; i++ )
 {
     var is_there_kryptonite:
-    if (i%2=== 0) {
-        is_there_kryptonite = true;
-    } else {
+        if ( i % 2 === 0) {
+            is_there_kryptonite = true;
+        } 
+        else {
         is_there_kryptonite = false;
-    }
-    console.log(Who_Wins(is_there_kryptonite,enemies[i]));
+        }
+
+    console.log(Who_Wins(is_there_kryptonite_enemies[i]));
 }
+
 
 function HowAttractedIsLoisLaneToMe ()
 {
@@ -40,10 +43,10 @@ function HowAttractedIsLoisLaneToMe ()
     return Math.floor((Mat.random()*10)+1);
 }
 
-consol.log( HowAttractedIsLoisLaneToMe ()) ;
+console.log( HowAttractedIsLoisLaneToMe ()) ;
 
 var clarkKent =true;
-var superman false;
+var superman = false;
 
 while (clarkKent){
     console.log("I'm just a nerdy columnist");
@@ -51,4 +54,6 @@ while (clarkKent){
     if (phoneBoothQuickChange>= 0.5) {
         clarkKent=false;
         superman=true;
-        console.log("Now I'm Superman!");}}
+        console.log("Now I'm Superman!");
+    }
+}
